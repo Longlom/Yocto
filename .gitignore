@@ -1,0 +1,29 @@
+node_modules
+db
+*.log
+.env
+.tvm.json
+
+dist
+
+# System files
+.DS_Store
+
+# Migration files
+*.migration
+
+# IDE, text editors
+.idea
+.atom-build
+.vscode/
+
+# Coverage
+.nyc_output
+coverage
+
+*pid
+
+resources/favourite-shops-by-client-id
+resources/geodump.json
+public/apidoc
+public/typedoc
