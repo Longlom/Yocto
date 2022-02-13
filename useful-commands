@@ -1,0 +1,5 @@
+To enter minicom for usb-ttl : sudo minicom -D /dev/ttyUSB0
+To bootload sd card: sudo dd if=core-image-minimal-beaglebone-yocto.wic of=/dev/sdb bs=1M conv=fsync
+Update submodule: git submodule update --remote
+Check connected devices: sudo fdisk -l
+
